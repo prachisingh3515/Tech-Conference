@@ -1,0 +1,97 @@
+
+/* --- General Styles --- */
+.about {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #0f172a, #1e293b);
+    color: white;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* --- Title and Intro --- */
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro {
+    font-size: 1.3rem;
+    color: #ddd;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+    
+}
+
+.info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    transition: transform 0.3s, background 0.3s;
+    width: 70vw;
+}
+
+.info:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.info h2 {
+    font-size: 2rem;
+    color: #FFD700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info ul li {
+    font-size: 1.2rem;
+    color: #ddd;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.info ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+    }
+
+    .info h2 {
+        font-size: 1.6rem;
+    }
+
+    .info ul li {
+        font-size: 1.1rem;
+    }
+}

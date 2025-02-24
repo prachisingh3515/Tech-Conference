@@ -1,0 +1,71 @@
+.schedule {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #243B55, #2C3E50); /* Matches hero section */
+    color: white;
+}
+
+.schedule h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #444;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tabs button.active {
+    background: #007bff;
+}
+
+table {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1e293b;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        
+        align-items: center;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
