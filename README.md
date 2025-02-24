@@ -1,6 +1,5 @@
 # Tech Conference Website
 
-**Project Link:** 
 A fictional tech conference website built using SvelteKit. This project includes multiple pages such as Home, Speakers, Schedule, Sponsors, About, and Contact, with features like session filtering and sponsor tiers.
 
 ---
