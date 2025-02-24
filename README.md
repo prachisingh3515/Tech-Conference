@@ -18,8 +18,8 @@ A fictional tech conference website built using SvelteKit. This project includes
 
 ## **📌 Project Setup**
 
-npx sv create tech-conference
-cd tech-conference
-npm install
+npx sv create tech-conference <br>
+cd tech-conference <br>
+npm install <br>
 npm run dev
 
